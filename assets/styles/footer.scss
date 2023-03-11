@@ -1,0 +1,89 @@
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &::before { 
+    content: "";
+    display: block;
+    position: relative;
+    width: 98%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgba(100, 255, 218, 0.3);
+  }
+  
+
+  &__content {
+
+    &__text {
+      font-family: "Roboto Mono", serif;
+      font-size: .8rem;
+      line-height: 1.5;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(100, 255, 218);
+      margin: 1em;
+
+      @media only screen and (min-width: 600px)  {
+        font-size: 1rem;
+      }
+
+      @media only screen and (min-width: 992px)  {
+        font-size: 1.2rem;
+      }
+      
+      
+     
+    }
+
+    &__contact {
+      display: flex;
+      justify-content: center;
+      margin: 2em 0em;
+      padding: 0 2em;
+
+      @media only screen and (min-width: 1400px)  {
+        position: fixed;
+        top: 300px;
+        left: 12px;
+        padding: 0;
+        width: 55px;
+        flex-direction: column;
+        border: 1px solid rgba(100, 255, 218, 0.3);
+        border-radius: 4px;
+        background-color: rgb(10, 25, 47);
+      }
+
+      &__link {
+        display: flex;
+        justify-content: center;
+      }
+
+      &__icon {
+        width: 35%;
+        max-width: 100px;
+
+        @media only screen and (min-width: 992px)  {
+          max-width: 120px;
+        }
+
+        @media only screen and (min-width: 1400px)  {
+          width: 100%;
+          padding: 15px 10px;
+        }
+
+      
+  
+        &:hover {
+          filter: grayscale(90%);
+          transform: scale(105%);
+          transition: 0.5s;
+          cursor: pointer; 
+        }
+        
+        
+      }
+    }
+  }
+}
+  

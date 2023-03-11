@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <!--Metadata-->
+      <meta charset="UTF-8">
+      <meta name="description" content="My personal portfolio">
+      <meta name="keywords" content="dev, portfolio, front-end, javascript, css">
+      <meta name="author" content="Fabio Oliveira">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio - Fábio Oliveira</title>
+      <!--External Links-->
+      <link rel="stylesheet" href="assets/styles/style.css">
+      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    </head>
+    <body class="body__background__color" onload="typeWriter(textWrite);">
+      <!--Header-->
+      <header class="header">
+        <nav class="header__content">
+          <img id="header-logo" class="header__content__logo" src="assets/images/main-logo.png" alt="website logo">
+          <ul class="header__content__menu">
+            <li>
+              <a href="#about" class="header__content__menu__link">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#workspace" class="header__content__menu__link">
+                Workspace
+              </a>
+            </li>
+            <li>
+              <a href="#skills" class="header__content__menu__link">
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#projects" class="header__content__menu__link">
+                Projects
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__menu__btn">
+          <img class="header__menu__btn__open-icon" src="assets/images/burger-menu-icon.svg" alt="open menu icon">
+          <img class="header__menu__btn__close-icon" src="assets/images/close-menu-icon.svg" alt="close menu icon">
+        </button>
+      </header>
+      <!--Main content (Introduce)-->
+      <main class="main">
+        <section class="main__content">
+          <div>
+            <h1 class="main__content__title">
+              Hi! 
+              My name is
+              Fábio Oliveira.
+            </h1>
+            <p class="main__content__text">
+              I'am a begginer 
+              front-end developer.
+              My purpose is to show my first projects and get a job.
+            </p>
+          </div>
+          <img class="main__content__animated-image" src="assets/images/logo2.png" alt="Me">
+        </section>
+        <!--About me-->        
+        <section id="about" class="main__content__about">
+          <h1 class="main__content__about__title">
+            About
+          </h1>
+          <article class="main__content__about__description">
+            <div class="main__content__about__description-container">
+              <p class="main__content__about__text">
+                I have a degree in civil engineering, but i've always like computers. A few months ago i started my studies in HTML, CSS and JavaScript and i would like to get a job opportunity.
+              </p>
+              <ul class="main__content__about__list">
+                <li class="main__content__about__item">
+                  <span class="bold">Name:</span> Fábio Oliveira
+                </li>
+                <li class="main__content__about__item">
+                  <span class="bold">Age:</span> 29yo
+                </li>
+                <li class="main__content__about__item">
+                  <span class="bold">City:</span> Sales Oliveira
+                </li>
+                <li class="main__content__about__item">
+                  <span class="bold">State:</span> São Paulo
+                </li>
+                <li class="main__content__about__item">
+                  <span class="bold">Country:</span> Brazil
+                </li>
+              </ul>
+            </div>
+            <div class="main__content__about__image-container">
+              <img class="main__content__about__image" src="assets/images/me.png" alt="Me">
+            </div>
+        </article>
+        </section>
+        <!--My Workspace-->
+        <section id="workspace" class="main__content__workspace">
+          <h1 class="main__content__workspace__title">
+            My Workspace
+          </h1>
+          <article class="main__content__workspace__description">
+            <div class="main__content__workspace__description-container">
+              <p class="main__content__workspace__text">
+                This is my workspace, pretty simple, but enough for now.
+              </p>
+              <ul class="main__content__workspace__list">
+                <li class="main__content__workspace__item">
+                  <span class="bold">Processor:</span> Ryzen 3 2200g 3.5GHz
+                </li>
+                <li class="main__content__workspace__item">
+                  <span class="bold">Motherboard:</span> ASRock A320M-HD
+                </li>
+                <li class="main__content__workspace__item">
+                  <span class="bold">Memory:</span> 2x Crucial Ballistix 8gb, 2400MHz
+                </li>
+                <li class="main__content__workspace__item">
+                  <span class="bold">SSD:</span> 1x Crucial BX500, 240gb
+                </li>
+                <li class="main__content__workspace__item">
+                  <span class="bold">HD:</span> WD Blue, 1TB SATA
+                </li>
+                <li class="main__content__workspace__item">
+                  <span class="bold">Power Supply:</span> Corsair CV450, 80 Plus Bronze
+                </li>
+                <li class="main__content__workspace__item">
+                  <span class="bold">1st Monitor:</span> Acer SA230 23" Full HD, 75Hz
+                </li>
+                <li class="main__content__workspace__item">
+                  <span class="bold">2nd Monitor:</span> HP vp15s 15" LCD
+                </li>
+              </ul>
+            </div>
+            <div class="main__content__workspace__image-container">
+              <img class="main__content__workspace__image" src="assets/images/my-workspace.jpeg" alt="My workspace">
+            </div>
+          </article>
+        </section>
+        <!--Skills-->
+        <section class="main__content__skills" id="skills">
+          <h1 class="main__content__skills__title">Skills</h1>
+          <div class="main__content__skills-container">
+            <div class="main__content__skills__logo-container">
+              <img class="main__content__skills__logo skill__select__js" src="assets/images/html5-logo.svg" alt="HTML logo">
+              <img class="main__content__skills__logo skill__select__js" src="assets/images/css3-logo.svg" alt="CSS logo">
+              <img class="main__content__skills__logo skill__select__js" src="assets/images/javascript-logo.svg" alt="JavaScript logo">
+              <img class="main__content__skills__logo skill__select__js" src="assets/images/sass-logo.svg" alt="SASS logo">
+            </div>
+            <div class="main__content__skills__text-container">
+              <p class="main__content__skills__text skill__description__js">
+                Choose a skill
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--Projects-->
+        <section class="main__content__projects" id="projects">
+          <h1 class="main__content__projects__title">Projects</h1>
+          <div class="main__content__projects-container">
+            <div class="main__content__projects__logo-container">
+              <a class="main__content__projects__link" href="https://github.com/fso1007/cars-flexbox" target="_blank">
+                <img class="main__content__projects__logo project__select__js" src="assets/images/github-project-logo.svg" alt="github logo">
+              </a>
+            </div>
+            <div class="main__content__projects__text-container">
+              <p class="main__content__projects__text project__description__js">
+                Choose a project
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!--Footer-->
+      <footer class="footer" id="contact">
+        <ul class="footer__content__contact">
+          <li class="footer__content__contact__item">
+            <a href="https://github.com/fso1007" target="_blank" class="footer__content__contact__link">
+              <img class="footer__content__contact__icon" src="assets/images/github-icon.svg" alt="Github link">
+            </a>
+          </li>
+          <li class="footer__content__contact__item">
+            <a href="https://www.linkedin.com/in/fso1007" target="_blank" class="footer__content__contact__link">
+              <img class="footer__content__contact__icon" src="assets/images/linkedin-icon.svg" alt="Linkedin link">
+            </a>
+          </li>
+          <li class="footer__content__contact__item">
+            <a href="mailto:fabio_oliveira10@live.com" class="footer__content__contact__link">
+              <img class="footer__content__contact__icon" src="assets/images/mail-icon.svg" alt="email link">
+            </a>
+          </li>
+        </ul>
+        <div class="footer__content__text">
+          Designed &#38; Built by fso1007
+        </div>
+      </footer>
+      <!--JS Scripts-->
+      <script src="assets/scripts/scroll-reveal.js"></script>
+      <script src="assets/scripts/text-write.js"></script>
+      <script src="assets/scripts/skills-descript.js"></script>
+      <script src="assets/scripts/projects-descript.js"></script>
+      <script src="assets/scripts/toggle-menu.js"></script>
+    </body>
+  </html>

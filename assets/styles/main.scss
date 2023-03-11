@@ -40,7 +40,6 @@
 
     @media only screen and (min-width: 992px)  {
       flex-direction: row;
-      margin: 11em auto 12em auto;
     }
 
 
@@ -82,8 +81,8 @@
       }
 
       @media only screen and (min-width: 1200px)  {
-        max-width: 450px;
-        max-height: 450px;
+        max-width: 400px;
+        max-height: 400px;
       }
 
 
@@ -168,12 +167,7 @@
       }
 
       @media only screen and (min-width: 992px)  {
-        font-size: 1.6rem;
-      
-      }
-
-      @media only screen and (min-width: 1200px)  {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
       
       }
 

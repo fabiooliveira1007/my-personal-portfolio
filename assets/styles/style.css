@@ -202,7 +202,6 @@
 @media only screen and (min-width: 992px) {
   .main__content {
     flex-direction: row;
-    margin: 11em auto 12em auto;
   }
 }
 .main__content__animated-image {
@@ -243,8 +242,8 @@
 }
 @media only screen and (min-width: 1200px) {
   .main__content__animated-image {
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 400px;
+    max-height: 400px;
   }
 }
 @keyframes imganimation {
@@ -312,12 +311,7 @@
 }
 @media only screen and (min-width: 992px) {
   .main__content__text {
-    font-size: 1.6rem;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .main__content__text {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 .main__content__about {

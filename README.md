@@ -24,4 +24,4 @@
 </table>
 
 
- <a href="https://fso1007.github.io/portfolio/">CLICK HERE!</a>
+ <a href="https://fso1007.github.io/my-personal-portfolio/">CLICK HERE!</a>

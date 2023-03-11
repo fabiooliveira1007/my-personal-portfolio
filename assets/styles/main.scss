@@ -25,11 +25,22 @@
     flex-direction: column;
     justify-content: space-evenly;
     max-width: 1200px;
-    margin: 2em auto 5em auto;
+    margin: 3em auto 5em auto;
     
     
     @media only screen and (min-width: 600px)  {
       flex-direction: row;
+      margin: 4em auto 10em auto;
+    }
+
+    @media only screen and (min-width: 768px)  {
+      flex-direction: row;
+      margin: 9em auto 12em auto;
+    }
+
+    @media only screen and (min-width: 992px)  {
+      flex-direction: row;
+      margin: 11em auto 12em auto;
     }
 
 
@@ -104,14 +115,19 @@
 
 
       @media only screen and (min-width: 600px)  {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
         line-height: 2;
-        margin: 2em auto 5em auto;
+     
 
       }
 
+      @media only screen and (min-width: 768px)  {
+        font-size: 2.8rem;
+        line-height: 2;
 
+      }
 
+    
       &::after {
         content: "|";
         animation: blinks 0.7s infinite;
@@ -137,22 +153,28 @@
       line-height: 1.4;
       text-align: justify;
       color: rgba(204, 214, 246, 0.8);
-      margin: 5em auto;
+      margin: 3.5em auto;
       max-width: 380px;
 
       @media only screen and (min-width: 600px)  {
-        margin: 6em 2em;
-        font-size: 1.5rem;
+        margin: 6em 2em 0em 2em;
+        font-size: 1.3rem;
         line-height: 1.8;
       }
 
       @media only screen and (min-width: 768px)  {
         line-height: 2;
+    
       }
 
       @media only screen and (min-width: 992px)  {
         font-size: 1.6rem;
-        line-height: 2;
+      
+      }
+
+      @media only screen and (min-width: 1200px)  {
+        font-size: 1.8rem;
+      
       }
 
     }

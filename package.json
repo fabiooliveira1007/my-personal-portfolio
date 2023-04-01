@@ -1,0 +1,23 @@
+{
+  "name": "my-personal-portfolio",
+  "version": "1.0.0",
+  "description": "<h1>portfolio</h1>",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fso1007/my-personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fso1007/my-personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/fso1007/my-personal-portfolio#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

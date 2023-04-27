@@ -4,7 +4,8 @@
   "description": "<h1>portfolio</h1>",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w sass -o public/css"
+    "sass": "node-sass -w sass -o public/css",
+    "live-server" : "live-server public --port=3000 --no-browser"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
     "url": "https://github.com/fso1007/my-personal-portfolio/issues"
   },
   "homepage": "https://github.com/fso1007/my-personal-portfolio#readme",
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^8.0.0"
   }
 }

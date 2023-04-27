@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w sass -o public/css",
-    "live-server" : "live-server public --port=3000 --no-browser"
+    "live-server" : "live-server public --port=3000 --no-browser --watch"
   },
   "repository": {
     "type": "git",

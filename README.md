@@ -5,11 +5,9 @@
 
 - HTML
 
-- Grid
-
-- Flexbox
-
 - CSS
+  * Grid
+  * Flexbox
 
 - SASS
 

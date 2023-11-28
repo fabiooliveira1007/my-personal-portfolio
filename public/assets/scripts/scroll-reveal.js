@@ -1,4 +1,4 @@
-srh = ScrollReveal({ reset: true });
+srh = ScrollReveal({ reset: false });
 ScrollReveal({ distance: "10px" });
 
 // FIRST PAGE
